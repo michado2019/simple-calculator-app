@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.calcContainer{
+    width: 250px;
+    height: 400px;
+    color: #111;
+    box-shadow: 4px 5px 8px #ccc;
+    margin: 0 auto;
+    padding: 2px 4px;  
+    background-color: #324242;
+}
+
+#display{
+    width: 240px;
+    height: 40px;
+    padding: 10px 5px;
+    margin: 10px auto;
+    text-align: right;
+    border-radius: 2px;
+    background-color: #dddddd;
+    overflow-x: scroll;
+    font-weight: 550;
+    color: #504f4f;
+    font-size: 25px;
+    
+}
+
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+.btns{
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+.btn{
+    border-radius: 2px;
+    color: #111;
+    line-height: 50px;
+    cursor: pointer;
+    text-align: center;
+    background-color: #dddddd;
+    border: 1px solid rgb(185, 180, 180);
+}
+.btn:hover{
+    font-weight: 550;
+    transition: all 0.3s;
+    cursor: pointer;
+    background-color: #403e3e;
+}
+#equal-btn{
+    background-color: rgb(102, 5, 102);
+}
+#equal-btn:hover{
+    background-color: rgb(124, 0, 124);
+}
+.name{
+    text-align: center;
+    font-size: 12px;
+    color: #dddddd;
+    font-style: italic;
+    padding-top: 15px;
+}
